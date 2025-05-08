@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .app-background {
+    background-image: url('bg2.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 64, 128, 0.9);
+    color: white;
+  }
+  
+  .nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #004080;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0066cc;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.95);
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .card img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004080;
+  }
+  
